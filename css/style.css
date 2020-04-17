@@ -1,0 +1,62 @@
+nav {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 270px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 50px 101px 50px;
+  color: rgb(98, 98, 98);
+}
+
+a:hover {
+  color: rgb(3, 169, 244);
+}
+
+section {
+  display: inline-block;
+  width: 421px;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 0 0 0 150px;
+}
+
+.lifestyle {
+  margin: 0px 61px 0px 0px;
+}
+
+.photodiary {
+  margin: 132px 61px 132px 0px;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+
+.underPhoto {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: rgb(180, 173, 158);
+}
+
+.but {
+  margin: 56px auto auto 507px;
+  display: block;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  background-color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  width: 162px;
+  height: 58px;
+}
