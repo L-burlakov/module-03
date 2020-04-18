@@ -1,17 +1,31 @@
-nav {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0px 0px 0px 270px;
+body,
+p,
+button {
+  font-family: 400 14px "Playfair Display",
+    serif;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-li {
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.navigation ul {
+  text-align: center;
+}
+
+.navigation li {
   display: inline-block;
-  margin: 10px 50px 101px 50px;
+  margin: 75px 100px 100px auto;
+}
+
+.navigation li:last-child {
+  margin-right: 0;
 }
 
 a {
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
   text-transform: uppercase;
   color: rgb(98, 98, 98);
 }
@@ -20,46 +34,56 @@ a:hover {
   color: rgb(3, 169, 244);
 }
 
-section {
+.post-wrap {
+  font-size: 0;
+}
+
+.post {
   display: inline-block;
-  width: 421px;
+  width: 420px;
   box-sizing: border-box;
+  margin-right: 60px;
+  margin-bottom: 130px;
 }
 
-.wrapper {
-  margin: 0 0 0 150px;
-  width: 900;
+.post:nth-child(even) {
+  margin-right: 0;
 }
 
-.lifestyle {
-  margin: 0px 61px 0px 0px;
-}
-
-.photodiary {
-  margin: 132px 61px 132px 0px;
+h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
 }
 
 p {
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
   color: rgb(98, 98, 98);
 }
 
 .underPhoto {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 300 14px "Ubuntu", sans-serif;
   text-transform: uppercase;
   color: rgb(180, 173, 158);
+  margin-top: 26px;
+  margin-bottom: 30px;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 .but {
-  margin: 56px auto auto 507px;
+  margin: 0 auto;
   display: block;
   border-width: 1px;
   border-color: rgb(98, 98, 98);
   border-style: solid;
   background-color: white;
-  font-family: "Playfair Display", serif;
   font-size: 20px;
-  width: 162px;
-  height: 58px;
+  padding: 20px 35px;
+  margin-bottom: 75;
+}
+
+.post:nth-child(-n+2) {
+  margin-bottom: 55px;
 }
