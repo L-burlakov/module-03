@@ -2,15 +2,17 @@ nav {
   margin: 0;
   box-sizing: border-box;
   padding: 0px 0px 0px 270px;
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
-
-  text-transform: uppercase;
 }
 
 li {
   display: inline-block;
   margin: 10px 50px 101px 50px;
+}
+
+a {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  text-transform: uppercase;
   color: rgb(98, 98, 98);
 }
 
@@ -24,8 +26,9 @@ section {
   box-sizing: border-box;
 }
 
-div {
+.wrapper {
   margin: 0 0 0 150px;
+  width: 900;
 }
 
 .lifestyle {
