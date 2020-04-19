@@ -1,7 +1,7 @@
 body,
 p,
 button {
-  font-family: 14px "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -60,8 +60,9 @@ p {
 }
 
 .underPhoto {
-  font-family: 14px "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 300;
+  font-size: 14px;
   text-transform: uppercase;
   color: rgb(180, 173, 158);
   margin-top: 26px;
