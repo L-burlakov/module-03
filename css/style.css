@@ -1,8 +1,8 @@
 body,
 p,
 button {
-  font-family: 400 14px "Playfair Display",
-    serif;
+  font-family: 14px "Playfair Display", serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
@@ -60,7 +60,8 @@ p {
 }
 
 .underPhoto {
-  font-family: 300 14px "Ubuntu", sans-serif;
+  font-family: 14px "Ubuntu", sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   color: rgb(180, 173, 158);
   margin-top: 26px;
@@ -81,9 +82,9 @@ img {
   background-color: white;
   font-size: 20px;
   padding: 20px 35px;
-  margin-bottom: 75;
+  margin-bottom: 75px;
 }
 
-.post:nth-child(-n+2) {
+.post:nth-child(-n + 2) {
   margin-bottom: 55px;
 }
